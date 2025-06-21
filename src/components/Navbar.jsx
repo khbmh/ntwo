@@ -11,6 +11,7 @@ const Navbar = () => {
       <div className="flex w-1/2 *:cursor-pointer justify-between mx-auto my-4">
         <Link href={'/'}>Home</Link>
         <Link href={'/services'}>Services</Link>
+        <Link href={'/posts'}>Posts</Link>
         <Link href={'/about'}>About</Link>
       </div>
     );
